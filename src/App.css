@@ -12,18 +12,14 @@ body {
 #root {
   height: 100%;
   overflow: hidden;
+  background-color: black;
 }
 .menu--container {
-  width: 110%;
+  width: 100%;
   height: 100%;
   overflow-y: scroll;
-  position: relative;
 }
-#menuImg {
+.menuImg {
   width: 100%;
   max-width: 100%;
-  transform: scale(1.05);
-  position: absolute;
-  top: 110px;
-  left: -62px;
 }

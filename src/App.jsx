@@ -1,10 +1,12 @@
 import "./App.css";
-import menuImg from "./images/menu.jpg";
+import menuImg1 from "./images/menu1.png";
+import menuImg2 from "./images/menu2.png";
 
 function App() {
   return (
     <div className="menu--container">
-      <img id="menuImg" src={menuImg} alt="menu" />
+      <img className="menuImg" src={menuImg1} alt="menu" />
+      <img className="menuImg" src={menuImg2} alt="menu" />
     </div>
   );
 }
