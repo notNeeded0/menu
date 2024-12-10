@@ -14,11 +14,16 @@ body {
   overflow: hidden;
 }
 .menu--container {
-  width: 100%;
+  width: 110%;
   height: 100%;
   overflow-y: scroll;
+  position: relative;
 }
 #menuImg {
   width: 100%;
   max-width: 100%;
+  transform: scale(1.05);
+  position: absolute;
+  top: 110px;
+  left: -62px;
 }
